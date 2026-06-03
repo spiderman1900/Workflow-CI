@@ -26,5 +26,5 @@ jobs:
 
     - name: Run MLflow Project Re-training
       run: |
-        cd MLProject_Folder
+        cd MLProject
         mlflow run . --experiment-name="Telco_Churn_CI_Actions"
