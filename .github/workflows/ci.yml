@@ -26,4 +26,4 @@ jobs:
 
     - name: Run MLflow Project Re-training
       run: |
-        mlflow run MLProject --experiment-name="Telco_Churn_CI_Actions"
+        mlflow run MLProject --env-manager local --experiment-name="Telco_Churn_CI_Actions"
